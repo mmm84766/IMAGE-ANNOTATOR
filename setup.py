@@ -38,11 +38,7 @@ setup(
     name='labelImg',
     version=__version__,
     description="LabelImg is a graphical image annotation tool and label object bounding boxes in images",
-    long_description=readme + '\n\n' + history,
-    author="TzuTa Lin",
-    author_email='tzu.ta.lin@gmail.com',
-    url='https://github.com/tzutalin/labelImg',
-    package_dir={'labelImg': '.'},
+    
     packages=required_packages,
     entry_points={
         'console_scripts': [
